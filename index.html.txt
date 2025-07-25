@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <a href="#welcome-section">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section">
+    <h1>Khalipha Jibrin</h1>
+    <p>I build responsive and accessible web applications.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-tile">
+      <a href="https://codepen.io" target="_blank">
+        <img src="https://via.placeholder.com/300x200" alt="Project preview" />
+        <p>Sample Project</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Let's connect</h2>
+    <a
+      id="profile-link"
+      href="https://github.com/your-username"
+      target="_blank"
+    >My GitHub</a>
+  </section>
+</body>
+</html>
+
+
